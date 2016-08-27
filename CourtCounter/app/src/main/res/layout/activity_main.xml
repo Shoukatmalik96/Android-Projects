@@ -7,11 +7,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.shoukatmalik.courtcounter.MainActivity">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/.team_a_score">
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,6 +33,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginLeft="50dp"
             android:textSize="26dp"
+            android:id="@+id/team_A_Score"
             android:text="0"/>
         <Button
             android:layout_width="150dp"
@@ -34,6 +41,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
+            android:onClick="TeamAScoreThree"
             android:text="@string/Button_3"
             />
         <Button
@@ -42,6 +50,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
+            android:onClick="TeamAScoreTwo"
             android:text="@string/Button_2"
             />
         <Button
@@ -50,6 +59,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
+            android:onClick="TeamAOneScore"
             android:text="@string/Button_free_throw"
             />
 
@@ -72,6 +82,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="26dp"/>
         <TextView
+            android:id="@+id/team_B_Score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -84,6 +95,7 @@
             android:text="@string/Button_3"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="24dp"
+            android:onClick="TeamBScoreThree"
             />
         <Button
             android:layout_width="150dp"
@@ -91,15 +103,29 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:text="@string/Button_2"
+            android:onClick="TeamBScoreTwo"
             />
         <Button
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
-            android:text="@string/Button_free_throw"
+            android:text="FREE THROW"
+            android:onClick="TeamBOneScore"
             />
     </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:text="Reset"
+        android:onClick="ResetScore"/>
+
+
 
 
 
