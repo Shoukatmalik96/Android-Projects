@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.example.lab2.myapplication.Signup"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/full_name"
+        />
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edit_full_name"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/H_Email"
+        />
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edit_text1"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/pass"
+        />
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edit_pass"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/conf"
+        />
+    <EditText
+        android:id="@+id/edit_c_passord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edit_conf_pass"
+        android:textColor="@android:color/white"
+        />
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:onClick="signup"/>
+
+
+
+</LinearLayout>

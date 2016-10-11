@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">"Quiz Boss "</string>
+    <string name="Question_1">Q1:Language used for Android Programming? .</string>
+    <string name="Question_2">Q2:Which of the following language is object oriented?</string>
+    <string name="Question_3">Q3:Language used for IOS programming?</string>
+</resources>

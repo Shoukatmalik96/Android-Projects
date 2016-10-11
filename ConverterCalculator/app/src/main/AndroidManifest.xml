@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="convertercalculator.group08.riu.edu.pk.convertercalculator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CurrencyActivity"
+            android:label="@string/title_activity_currency"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="convertercalculator.group08.riu.edu.pk.convertercalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name=".LengthAct"
+            android:label="@string/title_activity_length"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="convertercalculator.group08.riu.edu.pk.convertercalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name=".weight_activity"
+            android:label="@string/title_activity_weight_activity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="convertercalculator.group08.riu.edu.pk.convertercalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ConvertMoney"
+            android:label="@string/title_activity_convert_money"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="convertercalculator.group08.riu.edu.pk.convertercalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name=".weight"
+            android:label="@string/title_activity_weight"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="convertercalculator.group08.riu.edu.pk.convertercalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RatingAct"
+            android:label="@string/title_activity_rating"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="convertercalculator.group08.riu.edu.pk.convertercalculator.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SavedData"
+            android:label="@string/title_activity_saved_data" >
+        </activity>
+    </application>
+
+</manifest>

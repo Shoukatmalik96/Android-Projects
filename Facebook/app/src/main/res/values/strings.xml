@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Facebook</string>
+    <string name="btn1_name">New User</string>
+    <string name="btn2_name">Existing User</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="name">Name</string>
+    <string name="ed_name">Enter Your Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="ed_comf_password">Enter Confirm Password</string>
+    <string name="ed_password">Enter Password</string>
+    <string name="ed_email">Enter your Email</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Rounded Corner Test</string>
+    <string name="name">Enter  your Correct Name </string>
+    <string name="tv_name">Name</string>
+</resources>

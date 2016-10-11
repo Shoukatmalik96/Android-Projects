@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Fragment_Slider</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="all_images">
+        <item>@drawable/watch_1</item>
+        <item>@drawable/watch_2</item>
+        <item>@drawable/w</item>
+
+    </string-array>
+    <string-array name="all_contacts">
+        <item>Mehul Rughani</item>
+        <item>Tejas Jasani</item>
+        <item>Ravi Gadesha</item>
+        <item>Ravi Soneji</item>
+        <item>Bharat Mamtora</item>
+        <item>Vivek Tank</item>
+        <item>Parth Trivedi</item>
+        <item>Hardik Trivedi</item>
+        <item>Mehul Rughani</item>
+        <item>Tejas Jasani</item>
+        <item>Ravi Soneji</item>
+        <item>Mehul Rughani</item>
+        <item>Bharat Mamtora</item>
+        <item>Vivek Tank</item>
+        <item>Parth Trivedi</item>
+        <item>Hardik Trivedi</item>
+        <item>Mehul Rughani</item>
+    </string-array>
+</resources>

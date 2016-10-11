@@ -19,13 +19,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onCreate(SQLiteDatabase sqLiteDatabase) {
+    public void onCreate(SQLiteDatabase db) {
 
         db.execSQL("create table"+TABlE_NANE+"(ID INTEGER PRIMARY KEY AUTOMATIC,NAME TEXT,MOBILE_NUMBER INTEGER, EMAIL TEXT)");
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
      db.execSQL("DROP TABLE IF EXIST"+TABlE_NANE);
         onCreate(db);
     }

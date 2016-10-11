@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button1_name">New User</string>
+    <string name="button2_name">Existing User</string>
+    <string name="Edit_text1">Email</string>
+    <string name="Edit_text2"> Password</string>
+    <string name="H_Email">Email</string>
+    <string name="f_your_pass">Forgot your Password ?</string>
+    <string name="login">Login</string>
+    <string name="Edit_full_name">Full Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="pass">Password</string>
+    <string name="Edit_pass">Password</string>
+    <string name="conf">Confirm Password</string>
+    <string name="Edit_conf_pass">Confirm</string>
+
+
+</resources>

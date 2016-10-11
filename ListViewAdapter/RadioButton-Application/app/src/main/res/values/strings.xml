@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="first_question">Which language is used for Android Programming:</string>
+    <string name="second_question">Java can be extended with:</string>
+    <string name="third_question">User can design quick layout in:</string>
+</resources>
